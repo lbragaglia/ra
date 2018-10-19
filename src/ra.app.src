@@ -12,6 +12,6 @@
 	{applications, [kernel,stdlib,sasl,crypto,aten,gen_batch_server]},
 	{mod, {ra_app, []}},
 	{env, [
-	{data_dir, "/tmp/ra_data"}
-]}
+  	{data_dir, "/tmp/ra_data"}
+  ]}
 ]}.
